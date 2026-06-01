@@ -78,13 +78,14 @@ export default function LandingPage() {
       heading={[
         {
           type: "text",          content: "The Art of Refined Grooming"},
+        {
+          type: "image",          src: "http://img.b2bpic.net/free-photo/young-confident-blonde-male-barber-uniform-holds-comb-hair-clipper-isolated-violet-space-with-copy-space_141793-60252.jpg",          alt: "Barber focusing on client's haircut"
+        }
       ]}
       buttons={[
         {
           text: "Learn More",          href: "#services"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-confident-blonde-male-barber-uniform-holds-comb-hair-clipper-isolated-violet-space-with-copy-space_141793-60252.jpg"
-      imageAlt="Barber focusing on client's haircut"
     />
   </div>
 
