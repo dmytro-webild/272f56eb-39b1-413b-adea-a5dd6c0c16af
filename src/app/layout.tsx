@@ -53,8 +53,9 @@ export const metadata: Metadata = {
 
 
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 const inter = Inter({
@@ -70,7 +71,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
+        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
